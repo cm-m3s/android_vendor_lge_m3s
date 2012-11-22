@@ -63,7 +63,9 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_COPY_FILES += \
     vendor/lge/m3s/system/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/lge/m3s/system/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/lge/m3s/system/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/lge/m3s/system/lib/libaudioalsa.so:obj/lib/libaudio.so \
+    vendor/lge/m3s/system/lib/libaudioalsa.so:obj/lib/libaudioflinger.so
 
 # egl stuff
 PRODUCT_COPY_FILES += \
