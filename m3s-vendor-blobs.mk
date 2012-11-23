@@ -69,16 +69,12 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_COPY_FILES += \
     vendor/lge/m3s/proprietary/system/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/lge/m3s/proprietary/system/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/lge/m3s/proprietary/system/lib/libaudio.so:system/lib/libaudio.so \
-    vendor/lge/m3s/proprietary/system/lib/libaudio.so:obj/lib/libaudio.so \
     vendor/lge/m3s/proprietary/system/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
-    vendor/lge/m3s/proprietary/system/lib/libaudioflinger.so:obj/lib/libaudioflinger.so
 
 # egl stuff
 PRODUCT_COPY_FILES += \
     vendor/lge/m3s/proprietary/system/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/lge/m3s/proprietary/system/lib/libgsl.so:obj/lib/libgsl.so \
     vendor/lge/m3s/proprietary/system/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/lge/m3s/proprietary/system/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/m3s/proprietary/system/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -113,35 +109,20 @@ PRODUCT_COPY_FILES += \
 # libraries needed for the ril crap.  copy to /obj for linking against if they need to be
 PRODUCT_COPY_FILES += \
     vendor/lge/m3s/proprietary/system/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    vendor/lge/m3s/proprietary/system/lib/libril-qc-qmi-1.so:obj/lib/libril-qc-qmi-1.so \
     vendor/lge/m3s/proprietary/system/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/lge/m3s/proprietary/system/lib/libril-qcril-hook-oem.so:obj/lib/libril-qcril-hook-oem.so \
     vendor/lge/m3s/proprietary/system/lib/libdiag.so:system/lib/libdiag.so \
-    vendor/lge/m3s/proprietary/system/lib/libdiag.so:obj/lib/libdiag.so \
     vendor/lge/m3s/proprietary/system/lib/libqmi.so:system/lib/libqmi.so \
-    vendor/lge/m3s/proprietary/system/lib/libqmi.so:obj/lib/libqmi.so \
     vendor/lge/m3s/proprietary/system/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/lge/m3s/proprietary/system/lib/libdsutils.so:obj/lib/libdsutils.so \
     vendor/lge/m3s/proprietary/system/lib/libqmiservices.so:system/lib/libqmiservices.so \
-    vendor/lge/m3s/proprietary/system/lib/libqmiservices.so:obj/lib/libqmiservices.so \
     vendor/lge/m3s/proprietary/system/lib/libidl.so:system/lib/libidl.so \
-    vendor/lge/m3s/proprietary/system/lib/libidl.so:obj/lib/libidl.so \
     vendor/lge/m3s/proprietary/system/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/lge/m3s/proprietary/system/lib/libdsi_netctrl.so:obj/lib/libdsi_netctrl.so \
     vendor/lge/m3s/proprietary/system/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/lge/m3s/proprietary/system/lib/libnetmgr.so:obj/lib/libnetmgr.so \
     vendor/lge/m3s/proprietary/system/lib/libqdp.so:system/lib/libqdp.so \
-    vendor/lge/m3s/proprietary/system/lib/libqdp.so:obj/lib/libqdp.so \
     vendor/lge/m3s/proprietary/system/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
-    vendor/lge/m3s/proprietary/system/lib/liboem_rapi.so:obj/lib/liboem_rapi.so \
     vendor/lge/m3s/proprietary/system/lib/liboncrpc.so:system/lib/liboncrpc.so \
-    vendor/lge/m3s/proprietary/system/lib/liboncrpc.so:obj/lib/liboncrpc.so \
     vendor/lge/m3s/proprietary/system/lib/libdsm.so:system/lib/libdsm.so \
-    vendor/lge/m3s/proprietary/system/lib/libdsm.so:obj/lib/libdsm.so \
     vendor/lge/m3s/proprietary/system/lib/libqueue.so:system/lib/libqueue.so \
-    vendor/lge/m3s/proprietary/system/lib/libqueue.so:obj/lib/libqueue.so \
     vendor/lge/m3s/proprietary/system/lib/libnv.so:system/lib/libnv.so \
-    vendor/lge/m3s/proprietary/system/lib/libnv.so:obj/lib/libnv.so \
     vendor/lge/m3s/proprietary/system/lib/libdss.so:system/lib/libdss.so \
     vendor/lge/m3s/proprietary/system/lib/libpbmlib.so:system/lib/libpbmlib.so
 
@@ -155,6 +136,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_COPY_FILES += \
+    vendor/lge/m3s/proprietary/system/lib/libcamera.so:system/lib/libcamera.so \
     vendor/lge/m3s/proprietary/system/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/m3s/proprietary/system/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/m3s/proprietary/system/lib/libmmjpeg.so:system/lib/libmmjpeg.so
