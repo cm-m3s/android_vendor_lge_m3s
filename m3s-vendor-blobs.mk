@@ -140,3 +140,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/m3s/proprietary/system/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/m3s/proprietary/system/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/m3s/proprietary/system/lib/libmmjpeg.so:system/lib/libmmjpeg.so
+
+# Wifi
+PRODUCT_COPY_FILES += \
+    vendor/lge/m3s/proprietary/system/bin/wpa_supplicant:system/bin/wpa_supplicant 
